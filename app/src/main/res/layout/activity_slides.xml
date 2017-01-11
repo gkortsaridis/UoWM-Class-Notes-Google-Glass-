@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_slides"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gkortsaridis.uowm_classnotes.SlidesActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:background="#ff0000"
+        android:id="@+id/slide_image"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1/15"
+        android:id="@+id/slide_num"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
